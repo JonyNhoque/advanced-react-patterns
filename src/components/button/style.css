@@ -1,0 +1,13 @@
+.button__container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.button__body {
+    background-color: blueviolet;
+    height: 40px;
+    width: 65px;
+}
