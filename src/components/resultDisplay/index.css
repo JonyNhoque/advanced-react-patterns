@@ -1,0 +1,14 @@
+#resultDisplay__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultDisplay__box {
+    background-color: #514871;
+    height: 60%;
+    width: 80%;
+    border-radius: 10px;
+}

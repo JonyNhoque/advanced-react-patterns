@@ -7,7 +7,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import { ContextModule } from './components/context-module-functions';
+import { ContextModule } from './pages/context-module-functions';
 
 
 
