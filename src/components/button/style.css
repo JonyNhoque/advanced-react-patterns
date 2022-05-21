@@ -1,13 +1,19 @@
 .button__container {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: space-around;
 }
 
 .button__body {
-    background-color: blueviolet;
-    height: 40px;
-    width: 65px;
+    text-decoration: none;
+    color: #FFEEAD;
+    background-color: #D9534F;
+    min-height: 40px;
+    max-width: 80px;
+    border-radius: 2px;
+}
+
+.button__body:hover {
+    background-color: #96CEB4;
+    color: #D9534F;
 }
