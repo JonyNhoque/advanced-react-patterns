@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Button } from './components/button';
+import { ButtonRouter } from './components/button';
 
 
 function App() {
@@ -8,12 +8,12 @@ function App() {
     <div className="app__container">
       <div id='app__box'>
         <div id='app__header'>
-          <h2>Advanced React Patterns</h2>
+          <h2>React Exercises and Small Projects</h2>
         </div>
         <div id='app__body'>
-          <Button route='./context-module' routeName='Context Module Functions'></Button>
-          <Button route='#' routeName='Exercise #2'></Button>
-          <Button route='#' routeName='Exercise #3'></Button>
+          <ButtonRouter route='./basics' routeName='Basics'/>
+          <ButtonRouter route='./#' routeName='#' />
+          <ButtonRouter route='./to-do-list' routeName='To Do App { CRUD }'/>
         </div>
       </div>
     </div>

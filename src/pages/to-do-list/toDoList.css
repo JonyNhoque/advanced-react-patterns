@@ -1,0 +1,32 @@
+.toDo__app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2C3333;
+}
+
+.toDo__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+}
+
+.toDo__taskContainer {
+    height: 50vh;
+    width: 100vw;
+    background-color: #A5C9CA;
+    display: flex;
+    box-sizing: border-box;
+    padding: 15px;
+    align-items: center;
+}
+
+.toDo__task {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}

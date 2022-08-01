@@ -7,7 +7,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import { ContextModule } from './pages/context-module-functions';
+import { ToDoList } from './pages/to-do-list/ToDoList';
+import { Basics } from './pages/basics';
 
 
 
@@ -18,7 +19,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App/>} />
-      <Route path='/context-module' element={<ContextModule/>} />
+      <Route path='/to-do-list' element={<ToDoList/>} />
+      <Route path='/basics' element={<Basics/>} />
     </Routes>
   </BrowserRouter>
 );

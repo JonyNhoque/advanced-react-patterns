@@ -4,18 +4,19 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #D9534F;
+  background-color: #4C3A51;
+  color: #E7AB79;
 }
 
 #app__box {
-  height: 100%;
-  width: 70%;
-  background-color: #FFEEAD;
+  height: 95%;
+  width: 95%;
+  background-color: #B25068;
   padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  
+  border-radius: 15px;
 }
 
 #app__header {

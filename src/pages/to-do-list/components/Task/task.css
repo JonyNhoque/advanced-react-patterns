@@ -1,0 +1,10 @@
+.task__container {
+    height: 250px;
+    width: 200px;
+}
+
+.task__body {
+    background-color: bisque;
+    height: 100%;
+    width: auto;
+}

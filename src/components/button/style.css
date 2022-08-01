@@ -5,15 +5,18 @@
 }
 
 .button__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    color: #FFEEAD;
-    background-color: #D9534F;
-    min-height: 40px;
-    max-width: 80px;
-    border-radius: 2px;
+    color: #B25068;
+    background-color: #774360;
+    min-height: 80px;
+    width: 100px;
+    border-radius: 15px;
 }
 
 .button__body:hover {
-    background-color: #96CEB4;
-    color: #D9534F;
+    background-color: #E7AB79;
+    color: #4C3A51;
 }
