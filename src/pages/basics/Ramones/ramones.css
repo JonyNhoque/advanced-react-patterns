@@ -1,0 +1,12 @@
+.ramones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: #EB1D36;
+}
+
+.ramones__tag{
+    margin-bottom: -3px;
+}
