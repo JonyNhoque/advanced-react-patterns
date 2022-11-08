@@ -12,8 +12,9 @@
     color: #B25068;
     background-color: #774360;
     min-height: 80px;
-    width: 100px;
+    min-width: 100px;
     border-radius: 15px;
+    padding: 0px 10px;
 }
 
 .button__body:hover {

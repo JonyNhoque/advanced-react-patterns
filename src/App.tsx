@@ -12,7 +12,7 @@ function App() {
         </div>
         <div id='app__body'>
           <ButtonRouter route='./basics' routeName='Basics'/>
-          <ButtonRouter route='./#' routeName='#' />
+          <ButtonRouter route='./covid-tracker' routeName='Covid Tracker' />
           <ButtonRouter route='./to-do-list' routeName='To Do App { CRUD }'/>
         </div>
       </div>
