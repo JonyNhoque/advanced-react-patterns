@@ -17,10 +17,10 @@ const S = {
     ResponseDisplay: styled.div`
         background-color: #D3D3D3;
         padding: 5px 8px;
-        border-radius: 15px;
+        border-radius: 25px;
         text-align: center;
-        heigth: 50px;
-        width: 50px;
+        min-height: 20px;
+        width: 80px;
     `
 };
 
