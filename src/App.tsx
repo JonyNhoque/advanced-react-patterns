@@ -11,9 +11,11 @@ function App() {
           <h2>React Exercises and Small Projects</h2>
         </div>
         <div id='app__body'>
-          <ButtonRouter route='./basics' routeName='Basics'/>
-          <ButtonRouter route='./#' routeName='#' />
-          <ButtonRouter route='./to-do-list' routeName='To Do App { CRUD }'/>
+          {/*<ButtonRouter route='./basics' routeName='Basics'/>*/}
+          <ButtonRouter route='./covid-tracker' routeName='Covid Tracker' />
+          <ButtonRouter route='./#' routeName='# Projeto 2' />
+          <ButtonRouter route='./#' routeName='# Projeto 3' />
+          {/*<ButtonRouter route='./to-do-list' routeName='To Do App { CRUD }'/>*/}
         </div>
       </div>
     </div>

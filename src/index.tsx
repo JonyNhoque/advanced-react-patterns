@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import { ToDoList } from './pages/to-do-list/ToDoList';
 import { Basics } from './pages/basics';
+import CovidTracker from './pages/covid-tracker';
 
 
 
@@ -21,6 +22,7 @@ root.render(
       <Route path='/' element={<App/>} />
       <Route path='/to-do-list' element={<ToDoList/>} />
       <Route path='/basics' element={<Basics/>} />
+      <Route path='/covid-tracker' element={<CovidTracker/>} />
     </Routes>
   </BrowserRouter>
 );
